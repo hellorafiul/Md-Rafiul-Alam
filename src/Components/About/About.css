@@ -1,0 +1,38 @@
+#about {
+  padding-top: 90px;
+  padding-bottom: 91px;
+  padding-left: 35px;
+  text-align: left;
+}
+.section__title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: Roboto Mono,monospace;
+}
+.site-btn {
+  background-color: #6d56c1;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 15px;
+  min-width: 170px;
+  text-align: center;
+  display: inline-block;
+  color: #fff!important;
+  font-weight: 600;
+  overflow: hidden;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.site-btn:hover {
+  background-color: #7b67c7;
+  text-decoration: underline;
+}
+.site-btn img {
+  height: 14px;
+  margin-top: -5px;
+  margin-right: 5px;
+}

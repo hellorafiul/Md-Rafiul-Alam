@@ -1,0 +1,9 @@
+#navbarNavDropdown ul li a{
+color: #fff;
+}
+#navbarNavDropdown ul li a:hover{
+color: #FDE619;
+}
+.navbar-brand img {
+  height: 100px;
+}
