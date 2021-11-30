@@ -13,10 +13,10 @@ const Navagation = () => {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="#about">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#projects">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Testimonials</a>
