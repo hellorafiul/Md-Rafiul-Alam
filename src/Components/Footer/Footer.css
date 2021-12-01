@@ -1,0 +1,116 @@
+.background{
+  background-image: linear-gradient(
+    54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95)),url('../../../src/img/footerbg.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.section__title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: Roboto Mono,monospace;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contact-list {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto Mono,monospace;
+  overflow: hidden;
+}
+.contacts__list{
+  display: block;
+}
+.contacts__social{
+  display: block;
+  overflow: hidden;
+}
+.contacts__social li {
+  list-style: none;
+  padding: 15px;
+}
+.contacts__social a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 0;
+  transition: all .3s;
+}
+.contacts__social a:hover {
+  color: #4043e9;
+}
+.contacts .contacts__form-title, .footer {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto Mono,monospace;
+}
+.contacts .contacts__form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+.contacts .contacts__form input:invalid {
+  outline: none;
+}
+.contacts .contacts__form input {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto Mono,monospace;
+}
+.contacts .contacts__form .form-group .form-validation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 2px;
+  border: 2px solid #6d56c1;
+  pointer-events: none;
+  opacity: 0;
+  transition: all .3s;
+}
+.contacts .contacts__form .form-group span {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  text-align: right;
+  opacity: 0;
+  right: 20px;
+  z-index: 0;
+}
+.contacts .contacts__form textarea {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  padding: 10px;
+  height: 115px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto Mono,monospace;
+}
+.site-btn.site-btn--form {
+  width: 100%;
+  border: none!important;
+  box-shadow: 0 1px 29px rgba(0,0,0,.16);
+  position: relative;
+}
+::placeholder {
+  color: #fff;
+}
+.footer{
+
+}

@@ -60,6 +60,7 @@ body{
 }
 .contact-list dd a {
   color: #fff;
+  text-decoration: none;
 }
 
 .personal-profile__social{
