@@ -17,27 +17,27 @@ const Footer = () => {
     e.target.reset();
   };
   return (
-    <div class="background">
+    <div className="background">
       <ScrollToTop smooth color="#6f00ff" />
-      <div id="contact" class="container section">
-        <div class="row">
-          <div class="col-md-12">
-            <p id="contacts_header" class="section__title">
+      <div id="contact" className="container section">
+        <div className="row">
+          <div className="col-md-12">
+            <p id="contacts_header" className="section__title">
               <Typewriter
                 words={['Say Hi 👋', 'Get in touch now 🤗', "Let's have a cup of tea ☕️"]}
                 loop={5}
                 cursor
                 cursorStyle='_'
-                typeSpeed={80}
+                typeSpeed={70}
                 deleteSpeed={50}
-                delaySpeed={2000}
+                delaySpeed={1500}
               /></p>
           </div>
         </div>
-        <div class="row contacts">
-          <div class="col-md-3 col-lg-4">
-            <div class="contacts__list">
-              <dl class="contact-list">
+        <div className="row contacts">
+          <div className="col-md-3 col-lg-4">
+            <div className="contacts__list">
+              <dl className="contact-list">
                 <dt>Phone:</dt>
                 <dd><a href="tel:82344563333">8 (234) 555-33-69</a></dd>
                 <dt>Skype:</dt>
@@ -47,38 +47,38 @@ const Footer = () => {
               </dl>
             </div>
           </div>
-          <div class="col-md-6 col-lg-5">
-            <div class="contacts__form">
-              <p class="contacts__form-title">Or just write me a letter here_</p>
-              <form class="js-form" ref={form} onSubmit={sendEmail}>
-                <div class="form-group">
-                  <input class="form-field js-field-name" type="text" placeholder="Your name" required name="name" id="validationCustom01" />
-                  <span class="form-validation"></span>
-                  <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+          <div className="col-md-6 col-lg-5">
+            <div className="contacts__form">
+              <p className="contacts__form-title">Or just write me a letter here_</p>
+              <form className="js-form" ref={form} onSubmit={sendEmail}>
+                <div className="form-group">
+                  <input className="form-field js-field-name" type="text" placeholder="Your name" required name="name" id="validationCustom01" />
+                  <span className="form-validation"></span>
+                  <span className="form-invalid-icon"><i className="mdi mdi-close" aria-hidden="true"></i></span>
                 </div>
-                <div class="form-group">
-                  <input class="form-field js-field-email" type="email" placeholder="Your e-mail" required name="email" id="validationCustom02" />
-                  <span class="form-validation"></span>
-                  <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+                <div className="form-group">
+                  <input className="form-field js-field-email" type="email" placeholder="Your e-mail" required name="email" id="validationCustom02" />
+                  <span className="form-validation"></span>
+                  <span className="form-invalid-icon"><i className="mdi mdi-close" aria-hidden="true"></i></span>
                 </div>
-                <div class="form-group">
-                  <textarea class="form-field js-field-message" placeholder="Type the message here" required name="message" id="validationCustom03"></textarea>
-                  <span class="form-validation"></span>
-                  <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+                <div className="form-group">
+                  <textarea className="form-field js-field-message" placeholder="Type the message here" required name="message" id="validationCustom03"></textarea>
+                  <span className="form-validation"></span>
+                  <span className="form-invalid-icon"><i className="mdi mdi-close" aria-hidden="true"></i></span>
                 </div>
-                <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
+                <button className="site-btn site-btn--form" type="submit" value="Send">Send</button>
               </form>
             </div>
           </div>
-          <div class="contacts__social col-md-3 pt-4 pt-md-0">
+          <div className="contacts__social col-md-3 pt-4 pt-md-0">
             <ul>
-              <li><a href="https://github.com/hellorafiul" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
-              <li><a href="https://www.linkedin.com/in/hellorafiul/" target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
-              <li><a href="https://www.facebook.com/heyrafiul/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-              <li><a href="https://www.instagram.com/hellorafiul/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="https://github.com/hellorafiul" target="_blank"><i className="fa fa-github"></i> GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/hellorafiul/" target="_blank"><i className="fa fa-linkedin-square"></i> Linkedin</a></li>
+              <li><a href="https://www.facebook.com/heyrafiul/" target="_blank"><i className="fa fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="https://www.instagram.com/hellorafiul/" target="_blank"><i className="fab fa-instagram"></i> Instagram</a></li>
             </ul>
           </div>
-          <div class="footer ps-md-5 ms-md-5 mt-5">
+          <div className="footer ps-md-5 ms-md-5 mt-5">
             <p>@copy; 2021 Md Rafiul Alam. All Rights Reserved</p>
           </div>
         </div>
