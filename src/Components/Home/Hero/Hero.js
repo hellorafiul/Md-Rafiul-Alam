@@ -97,10 +97,10 @@ const Hero = () => {
         <div className="row">
           <div className="col-md-4 img-fluid d-sm-block d-none" >
             <img className="img-fluid profilePic" src={myImg} alt="" data-aos="fade-up"
-              data-aos-duration="1000" />
+              data-aos-duration="500" />
           </div>
           <div className="col-md-8 text-white hero-details" data-aos="fade-up"
-            data-aos-duration="1000">
+            data-aos-duration="500">
             <p className="personal-profile__name">Md Rafiul Alam</p>
             <p className="personal-profile__work">I'm <span style={{ fontWeight: 'bold' }}>
               {/* Style will be inherited from the parent element */}
@@ -109,9 +109,9 @@ const Hero = () => {
                 loop={5}
                 cursor
                 cursorStyle='_'
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1500}
+                typeSpeed={50}
+                deleteSpeed={20}
+                delaySpeed={1000}
               />
             </span></p>
             <div className="personal-profile__contacts">

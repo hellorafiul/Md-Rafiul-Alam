@@ -16,10 +16,10 @@ const Navagation = () => {
               <a className="nav-link" href="#about">Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">Portfolio</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#Testimonials">Testimonials</a>
+              <a className="nav-link" href="#Testimonials">Reviews</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>

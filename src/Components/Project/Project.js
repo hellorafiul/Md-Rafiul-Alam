@@ -7,10 +7,10 @@ const Project = ({ project }) => {
       <div className="row mb-5">
         <div className="col-md-4 projectImg">
           <img src={project.img} alt="" className="img-fluid pb-5" data-aos="zoom-in"
-            data-aos-duration="2000" />
+            data-aos-duration="500" />
         </div>
         <div className="col-md-8 project-details" data-aos="fade-up"
-          data-aos-duration="2000">
+          data-aos-duration="500">
           <h3 className="project-card__title mt-md-0 mt-sm-5">{project.name}</h3>
           <p>{project.date}</p>
           <ul className="my-item">{

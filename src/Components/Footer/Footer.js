@@ -28,9 +28,9 @@ const Footer = () => {
                 loop={5}
                 cursor
                 cursorStyle='_'
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1500}
+                typeSpeed={50}
+                deleteSpeed={20}
+                delaySpeed={1000}
               /></p>
           </div>
         </div>

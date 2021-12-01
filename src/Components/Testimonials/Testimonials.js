@@ -23,7 +23,7 @@ const Testimonials = () => {
             <img src='https://i.ibb.co/N9JXGdh/user-3.png' className="d-block" alt="..." />
             <div className="carousel-caption d-md-block">
               <h5>Thea Linde</h5>
-              <p>Rafi is one of the best developers I have worked with. Excellent code quality, great understanding of requirements, and very intelligent execution.</p>
+              <p>Excellent code quality, great understanding of requirements, and very intelligent execution.</p>
             </div>
           </div>
           <div className="carousel-item">
